@@ -1,0 +1,51 @@
+body {
+    background-color:beige;
+    text-align: center;
+}
+
+div {
+    text-align: center;   
+    transition: 0.5s;
+}
+
+div:hover{
+    width: 250px;
+}
+
+p{
+    text-align: left;
+}
+
+h1 {
+    color: blue; 
+    border-radius: 10px;
+    text-align: left; 
+}
+
+ul > li:first-child {
+    color: blueviolet;
+
+}
+
+li{
+    color: blue; 
+    background-color: aliceblue;
+    text-align: left; 
+    transition: 0.5s;
+}
+
+ul {
+    border: 2px solid brown;  
+    border-radius: 10px;
+    width: 200px;
+    transition: 1s;
+}
+
+ul:hover{
+    width: 300px;
+    transition: 1s;
+}
+
+li:hover{
+    color: ivory;
+}
